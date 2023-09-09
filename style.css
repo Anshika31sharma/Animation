@@ -1,14 +1,14 @@
 		*{
-			margin: 0px;
-			padding: 0px;
+			margin:0px;
+			padding:0px;
 		}
 	.Anshika {
-     background-image: url('./Assets/sky.jpg');
+     background-image: url('./Assets/sky.png');
     height: 500px;
     width: 100%;
 }
 .highway {
-    background-image: url('./Assets/road.jpg');
+    background-image: url('./Assets/road.png');
     height: 200px;
     position: absolute;
     bottom: 0;
@@ -34,24 +34,21 @@
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
-
 @keyframes city {
     100% {
         transform: translateX(-500px);
     }
 }
-
 .Dragon {
     background-image : url('./Assets/Dragon.png');
     width: 580px;
     height: 200%;
     position: absolute;
     bottom: 368px;
-    left: 2%
-    
+    left: 2% 
 }
 .fire{
-	background-image : url('./Assets/fire.gif');
+	background-image : url('./Assets/fire.png');
 	width:225px;
 	height: 60%;
 	position: absolute;
